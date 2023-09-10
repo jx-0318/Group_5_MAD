@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1040070594737",
+    "firebase_url": "https://noiseapp-bbbcb-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "noiseapp-bbbcb",
+    "storage_bucket": "noiseapp-bbbcb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1040070594737:android:45d999b7f3afe3bd6bd290",
+        "android_client_info": {
+          "package_name": "my.edu.utar.noiseapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1040070594737-frqojrdgpdb7alneapinhjkp7qbhustg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUd_E3LLRSYxKLhG6JV3amO-qlNcqy3qE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1040070594737-15f2idc25qgu88gcm3hasom0aselbl06.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

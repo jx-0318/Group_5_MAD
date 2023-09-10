@@ -1,0 +1,112 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="264dp"
+        android:layout_height="325dp"
+        app:srcCompat="@drawable/logo"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/buttonGroup1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        />
+
+    <!-- Button Group 1: Input and Record Voice -->
+    <LinearLayout
+        android:id="@+id/buttonGroup1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        android:layout_marginTop="16dp">
+
+        <Button
+            android:id="@+id/buttonToInputNoise"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_input_noise"
+            android:layout_marginEnd="16dp" />
+
+        <Button
+            android:id="@+id/buttonRecordVoice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_record_voice" />
+    </LinearLayout>
+
+    <!-- Button Group 2: Language and Theme -->
+    <LinearLayout
+        android:id="@+id/buttonGroup2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@+id/buttonGroup1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        android:layout_marginTop="4dp">
+
+        <Button
+            android:id="@+id/languageSelectionButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/select_language"
+            android:layout_marginEnd="16dp" />
+
+        <Button
+            android:id="@+id/buttonToggleTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/toggle_theme" />
+    </LinearLayout>
+
+    <!-- Button Group 3: Map, Historical Data, and Exit -->
+    <LinearLayout
+        android:id="@+id/buttonGroup3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@+id/buttonGroup2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        android:layout_marginTop="4dp">
+
+        <Button
+            android:id="@+id/buttonToMap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Go to Map"
+            android:layout_marginEnd="16dp" />
+
+        <Button
+            android:id="@+id/historicalDataButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Historical Data"
+            android:layout_marginEnd="16dp" />
+
+        <Button
+            android:id="@+id/exitButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Exit" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

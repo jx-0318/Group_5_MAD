@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".InputNoiseActivity">
+
+    <EditText
+        android:id="@+id/editTextNoiseLevel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_noise_level_hint"
+        android:inputType="number"
+        />
+
+    <Button
+        android:id="@+id/buttonSubmitNoise"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/submit_button_label"
+        />
+
+    <TextView
+        android:id="@+id/textViewNoiseCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text=""
+        android:textAppearance="?android:textAppearanceMedium"
+        android:visibility="gone"/>
+
+</LinearLayout>
+
+

@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">NoiseApp</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="button_input_noise">入力ノイズレベル</string>
+    <string name="button_record_voice">音声を録音する</string>
+    <string name="button_settings">設定</string>
+
+    <string name="enter_noise_level_hint">騒音レベルを入力します (1 ～ 100 dB)</string>
+    <string name="submit_button_label">提出する</string>
+
+    <string name="start_record_button_label">録音を開始</string>
+    <string name="stop_record_button_label">録音を停止する</string>
+    <string name="start_playing_button_label">プレイを開始する</string>
+    <string name="stop_playing_button_label">遊ぶのやめて</string>
+
+    <string name="enable_notifications_label">通知を有効にします</string>
+    <string name="select_language_prompt">言語を選択する</string>
+
+    <string name="invalid_noise_level_message">騒音レベルを 1 ～ 100 dB の範囲で入力してください</string>
+    <string name="enter_noise_level_message">騒音レベルを入力してください</string>
+
+
+    <string name="recording_started_message">録音開始</string>
+    <string name="failed_to_start_recording_message">録音の開始に失敗しました</string>
+    <string name="recording_stopped_message">録音停止</string>
+    <string name="failed_to_stop_recording_message">記録の停止に失敗しました</string>
+    <string name="start_playing_message">プレイを開始する</string>
+    <string name="failed_to_start_playing_message">再生の開始に失敗しました</string>
+    <string name="stopped_playing_message">再生を停止しました</string>
+    <string name="recording_data_saved">録音データの保存</string>
+    <string name="failed_to_save_recording_data">録画データの保存に失敗しました</string>
+
+
+    <string name="apply_language">言語を適用する</string>
+    <string name="select_language">言語を選択する</string>
+
+    <string name="english_language">英語</string>
+    <string name="french_language">フランス語</string>
+    <string name="spanish_language">スペイン語</string>
+    <string name="chinese_language">中国語</string>
+
+
+
+
+
+
+    <!-- Define an array of language options -->
+    <string-array name="language_options">
+        <item>English</item>
+        <item>Spanish</item>
+        <item>French</item>
+        <item>Chinese</item>
+        <!-- Add more language options as needed -->
+    </string-array>
+    <string name="japanese_language">日本語</string>
+    <string name="change_theme">テーマの変更</string>
+    <string name="toggle_theme">テーマの切り替え</string>
+    <string name="low_noise_alert">お住まいの地域の騒音レベルは低いです (0 ～ 25 dB)</string>
+    <string name="medium_noise_alert">お住まいの地域の騒音レベルは低いです (0 ～ 25 dB)。</string>
+    <string name="high_noise_alert">お住まいの地域の騒音レベルは高いです (51 ～ 100 dB)。</string>
+    <string name="notification_channel_name">騒音警報</string>
+    <string name="notification_channel_description">騒音レベルアラートのチャネル</string>
+    <string name="exit_confirmation">終了してもよろしいですか？</string>
+    <string name="cancel">キャンセル</string>
+    <string name="confirm">確認</string>
+</resources>

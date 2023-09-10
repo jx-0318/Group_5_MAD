@@ -1,0 +1,33 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.NoiseApp" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/background_dark</item>
+        <item name="colorPrimaryDark">@color/background_dark</item>
+        <item name="colorAccent">@color/background_dark</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.NoiseApp.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.NoiseApp.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.NoiseApp.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <!-- Light Theme -->
+    <style name="AppTheme.Light" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize light theme attributes here -->
+    </style>
+
+    <!-- Dark Theme -->
+    <style name="AppTheme.Dark" parent="Theme.AppCompat">
+        <!-- Customize dark theme attributes here -->
+        <item name="android:windowBackground">@color/background_dark</item>
+        <item name="android:textColor">@color/text_color_dark</item>
+    </style>
+
+
+</resources>

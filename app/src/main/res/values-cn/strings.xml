@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">NoiseApp</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="button_input_noise">输入噪声水平</string>
+    <string name="button_record_voice">录音</string>
+    <string name="button_settings">设置</string>
+
+    <string name="enter_noise_level_hint">输入噪音级别（1 至 100 dB）</string>
+    <string name="submit_button_label">提交</string>
+
+    <string name="start_record_button_label">开始录音</string>
+    <string name="stop_record_button_label">停止录音</string>
+    <string name="start_playing_button_label">播放声音</string>
+    <string name="stop_playing_button_label">停止播放</string>
+
+    <string name="enable_notifications_label">通知</string>
+    <string name="select_language_prompt">选择语言</string>
+
+    <string name="invalid_noise_level_message">请输入 1 到 100 dB 之间的噪音水平</string>
+    <string name="enter_noise_level_message">请输入噪音水平</string>
+
+
+    <string name="recording_started_message">录音开始</string>
+    <string name="failed_to_start_recording_message">无法开始录音</string>
+    <string name="recording_stopped_message">录音已停止</string>
+    <string name="failed_to_stop_recording_message">停止录音失败</string>
+    <string name="start_playing_message">开始播放</string>
+    <string name="failed_to_start_playing_message">播放失败</string>
+    <string name="stopped_playing_message">已停止播放</string>
+    <string name="recording_data_saved">录音数据已保存</string>
+    <string name="failed_to_save_recording_data">无法保存数据</string>
+
+
+    <string name="apply_language">应用</string>
+    <string name="select_language">选择语言</string>
+
+    <string name="english_language">英语</string>
+    <string name="french_language">法语</string>
+    <string name="spanish_language">西班牙语</string>
+    <string name="chinese_language">中文</string>
+
+
+
+
+
+
+    <!-- Define an array of language options -->
+    <string-array name="language_options">
+        <item>英语</item>
+        <item>西班牙语</item>
+        <item>法语</item>
+        <item>中文</item>
+        <!-- Add more language options as needed -->
+    </string-array>
+    <string name="japanese_language">日语</string>
+    <string name="change_theme">改变主题</string>
+    <string name="toggle_theme">切换主题</string>
+    <string name="low_noise_alert">您所在区域的噪音水平较低（0-25 分贝）</string>
+    <string name="medium_noise_alert">您所在区域的噪音水平较低（0-25 分贝）。</string>
+    <string name="high_noise_alert">您所在区域的噪音水平很高（51-100 分贝）。</string>
+    <string name="notification_channel_name">噪音警报</string>
+    <string name="notification_channel_description">噪音水平警报通道</string>
+    <string name="exit_confirmation">您确定要退出吗？</string>
+    <string name="confirm">确认</string>
+    <string name="cancel">取消</string>
+</resources>

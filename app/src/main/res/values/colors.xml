@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#3F51B5</color>
+    <color name="purple_500">#0B2198</color>
+    <color name="purple_700">#182EA3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="background_dark">#000000</color>
+    <color name="text_color_dark">#FFFFFF</color>
+
+
+    <!-- Light Blue Theme Colors -->
+    <color name="blue_primary">#2196F3</color>
+    <color name="blue_primary_dark">#1976D2</color>
+    <color name="blue_accent">#FF4081</color>
+
+    <!-- Dark Red Theme Colors -->
+    <color name="red_primary">#FF5722</color>
+    <color name="red_primary_dark">#E64A19</color>
+    <color name="red_accent">#C51162</color>
+
+    <color name="background_dark_red">#FF5733</color>
+    <color name="text_color_dark_red">#FFFFFF</color>
+
+
+
+    <color name="dark_primary_color">#E8FF03</color>
+    <color name="dark_primary_dark_color">#CFD595</color>
+    <color name="dark_accent_color">#646E07</color>
+
+
+    <color name="custom_primary_color">#27A62C</color>
+    <color name="custom_primary_dark_color">#002C02</color>
+    <color name="custom_accent_color">#A6D3A8</color>
+</resources>

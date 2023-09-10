@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- res/values-night/styles.xml -->
+    <style name="AppTheme" parent="Theme.AppCompat">
+        <!-- Customize dark theme attributes here -->
+    </style>
+</resources>

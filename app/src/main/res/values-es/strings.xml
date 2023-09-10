@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">NoiseApp</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="button_input_noise">Nivel de ruido de entrada</string>
+    <string name="button_record_voice">Grabar voz</string>
+    <string name="button_settings">Ajustes</string>
+
+    <string name="enter_noise_level_hint">Ingrese el nivel de ruido (1 a 100 dB)</string>
+    <string name="submit_button_label">Entregar</string>
+
+    <string name="start_record_button_label">Empezar a grabar</string>
+    <string name="stop_record_button_label">Para de grabar</string>
+    <string name="start_playing_button_label">empezar a jugar</string>
+    <string name="stop_playing_button_label">Dejar de jugar</string>
+
+    <string name="enable_notifications_label">Permitir notificaciones</string>
+    <string name="select_language_prompt">Seleccione el idioma</string>
+
+    <string name="invalid_noise_level_message">Por favor introduzca un nivel de ruido entre 1 y 100 dB</string>
+    <string name="enter_noise_level_message">Por favor introduce un nivel de ruido</string>
+
+
+    <string name="recording_started_message">Grabación iniciada</string>
+    <string name="failed_to_start_recording_message">No se pudo iniciar la grabación</string>
+    <string name="recording_stopped_message">Grabación detenida</string>
+    <string name="failed_to_stop_recording_message">No se pudo detener la grabación</string>
+    <string name="start_playing_message">empezar a jugar</string>
+    <string name="failed_to_start_playing_message">No se pudo empezar a jugar</string>
+    <string name="stopped_playing_message">Dejó de jugar</string>
+    <string name="recording_data_saved">Datos de grabación guardados</string>
+    <string name="failed_to_save_recording_data">No se pudieron guardar los datos de grabación</string>
+
+
+    <string name="select_language">Seleccione el idioma</string>
+    <string name="english_language">Anglais</string>
+    <string name="french_language">Français</string>
+    <string name="spanish_language">Espagnol</string>
+    <string name="apply_language">Appliquer la langue</string>
+    <string name="chinese_language">Chino</string>
+
+
+
+
+    <!-- Define an array of language options -->
+    <string-array name="language_options">
+        <item>Inglés</item>
+        <item>Español</item>
+        <item>Francés</item>
+        <item>Chinese</item>
+        <!-- Add more language options as needed -->
+    </string-array>
+    <string name="japanese_language">Japonés</string>
+    <string name="change_theme">Cambiar de tema</string>
+    <string name="toggle_theme">Alternar tema</string>
+    <string name="low_noise_alert">Los niveles de ruido en su área son bajos (0-25 dB).</string>
+    <string name="medium_noise_alert">Los niveles de ruido en su área son bajos (0-25 dB).</string>
+    <string name="high_noise_alert">Los niveles de ruido en su área son altos (51-100 dB).</string>
+    <string name="notification_channel_name">Alertas de ruido</string>
+    <string name="notification_channel_description">Canal de alertas de nivel de ruido.</string>
+    <string name="exit_confirmation">¿Estás seguro de que quieres salir?</string>
+    <string name="confirm">Confirmar</string>
+    <string name="cancel">Cancelar</string>
+</resources>
